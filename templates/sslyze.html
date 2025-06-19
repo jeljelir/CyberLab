@@ -121,7 +121,7 @@
                             document.getElementById('valid').disabled=false;
                             var host = document.getElementById('host');
                             // set defult backgrounds
-                            host.style = "background-color: fff;";
+                            host.style = "background-color: #fff;";
                             // check if the field "host" is non-empty, is a url
                             if (host.value == "" || /^(?!(http(s)?):\/\/)[(www\.)?a-zA-Z0-9\.\-]{2,256}\.[a-z]{2,6}/.test(host.value) == false) {
                                 console.log("Invalid host: " + host);
